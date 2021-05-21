@@ -1,5 +1,5 @@
 %veri=xlsread('veri');
-%load veri
+%load veri;
 while 1
 saat1=input('bakilacak saat ilk degerini giriniz= ');
 
