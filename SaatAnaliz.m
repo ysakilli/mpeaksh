@@ -1,4 +1,5 @@
-veri=xlsread('veri');
+%veri=xlsread('veri');
+%load veri
 while 1
 saat1=input('bakilacak saat ilk degerini giriniz= ');
 
@@ -27,7 +28,7 @@ ylabel('Enerji');
 energy = trapz(a,b);
 title(['Belirlenen saatteki Enerji = ',num2str(energy),'kW/h'])
 fprintf('\n belirlenen alanin integrali= %f',energy);
-son=input('\n bitirmek için ''h'' tusuna basiniz= ','s');
+son=input('\n bitirmek iÃ§in ''h'' tusuna basiniz= ','s');
 if son=='h'
  break
 end
